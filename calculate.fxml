@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="321.9999000000025" prefWidth="268.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <children>
+    <TextField layoutX="7.0" layoutY="45.0" prefHeight="66.0" prefWidth="255.0" />
+    <Button layoutX="211.0" layoutY="117.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="51.0" text="M-" />
+    <Button layoutX="160.0" layoutY="117.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="51.0" text="M+" />
+    <Button layoutX="109.0" layoutY="117.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="51.0" text="MS" />
+    <Button layoutX="58.0" layoutY="117.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="51.0" text="MR" />
+    <Button layoutX="7.0" layoutY="117.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="51.0" text="MC" />
+    <Button layoutX="211.0" layoutY="150.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="51.0" text="√" />
+    <Button layoutX="160.0" layoutY="150.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="51.0" text="+/-" />
+    <Button layoutX="109.0" layoutY="150.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="51.0" text="C" />
+    <Button layoutX="58.0" layoutY="150.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="51.0" text="CE" />
+    <Button layoutX="7.0" layoutY="150.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="51.0" text="←" />
+    <Button layoutX="211.0" layoutY="183.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="51.0" text="\%" />
+    <Button layoutX="160.0" layoutY="183.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="51.0" text="/" />
+    <Button layoutX="109.0" layoutY="183.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="51.0" text="9" />
+    <Button layoutX="58.0" layoutY="183.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="51.0" text="8" />
+    <Button layoutX="7.0" layoutY="183.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="51.0" text="7" />
+    <Button layoutX="211.0" layoutY="216.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="51.0" text="1/x" />
+    <Button layoutX="160.0" layoutY="216.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="51.0" text="*" />
+    <Button layoutX="109.0" layoutY="216.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="51.0" text="6" />
+    <Button layoutX="58.0" layoutY="216.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="51.0" text="5" />
+    <Button layoutX="7.0" layoutY="216.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="51.0" text="4" />
+    <Button layoutX="160.0" layoutY="249.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="51.0" text="-" />
+    <Button layoutX="109.0" layoutY="249.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="51.0" text="3" />
+    <Button layoutX="58.0" layoutY="249.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="51.0" text="2" />
+    <Button layoutX="7.0" layoutY="249.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="51.0" text="1" />
+    <Button layoutX="211.0" layoutY="249.0" mnemonicParsing="false" prefHeight="65.99981689453125" prefWidth="51.0" text="=" />
+    <Button layoutX="160.0" layoutY="282.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="51.0" text="+" />
+    <Button layoutX="109.0" layoutY="282.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="51.0" text="." />
+    <Button layoutX="7.0" layoutY="282.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="102.0" text="0" />
+    <MenuBar layoutX="7.0" layoutY="14.0" prefWidth="242.0">
+      <menus>
+        <Menu mnemonicParsing="false" text="File">
+          <items>
+            <MenuItem mnemonicParsing="false" text="Close" />
+          </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Edit">
+          <items>
+            <MenuItem mnemonicParsing="false" text="Delete" />
+          </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Help">
+          <items>
+            <MenuItem mnemonicParsing="false" text="About" />
+          </items>
+        </Menu>
+      </menus>
+    </MenuBar>
+  </children>
+</AnchorPane>
