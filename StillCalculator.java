@@ -7,7 +7,7 @@ import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 
-/** Extends the javafx.application.Application  */
+/** Extends the javafx.application.Application */
 public class StillCalculator extends Application {
 
     	private Stage primaryStage;
